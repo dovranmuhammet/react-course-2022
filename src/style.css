@@ -1,11 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-body {
-  font-family: 'Courier New', Courier, monospace;
-  background-color: f1f5f8;
-  color: #222;
+.list-item {
+  list-style: none;
+  display: flex;
+}
+
+.list-item > li {
+  padding: 10px;
+}
+
+img {
+  width: 60px;
 }
